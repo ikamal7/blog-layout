@@ -190,7 +190,7 @@ span.widget-title-box {
      grid-gap: 15px;
      grid-template-columns: 1fr 1fr 1fr;
 }
-
+/* hero area */
 .hero-wrapper {
     overflow: hidden;
     background: #000;

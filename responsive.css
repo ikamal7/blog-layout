@@ -1,0 +1,107 @@
+@media screen and (max-width: 479px) {
+
+    .grid-posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .grid-1 {
+
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+
+    .grid-2 {
+
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+
+.grid-3 {
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+
+.grid-4 {
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+
+.grid-5 {
+     grid-column-start: 1;
+     grid-column-end: 13;
+}
+
+    .grid-6 {
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+
+    .general-box,
+    .articles-grid {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: table;
+    }
+
+    .general-box .post-imge, 
+    .articles-grid .post-imge{
+        float: left;
+        width: 30% !important;
+    }
+
+    .general-box .post-info,
+    .articles-grid .post-info {
+        float: left;
+        width: 65%;
+    }
+    .general-box .post-info,
+    .articles-grid .post-info {
+        margin: 0px 0;
+    }
+
+    .general-box .post-imge,
+    .articles-grid .post-imge {
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+        display: table-cell;
+        vertical-align: middle;
+        max-height: 100px;
+    }
+    .overlay-box .post-info h2 {
+        font-size: 1.2rem;
+        margin-right: 0;
+        width: 100%;
+    }
+
+     .general-box .post-info h2,
+     .articles-grid .post-info h2 {
+         font-size: 17px;
+     }
+    .hero-text h2{
+        font-size: 2.2rem;
+    }
+     .hero-text p,
+     .articles-grid .post-info p {
+         display: none !important;
+     }
+    .hero-img {
+        width: 100%;
+    }
+    .hero-text {
+        float: left;
+        margin-top: -70px;
+        padding: 0 4.16666666% 20px;
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 91.66666666%;
+    }
+
+    .articles {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr;
+    }
+}
